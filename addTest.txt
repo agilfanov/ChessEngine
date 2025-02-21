@@ -1,0 +1,26 @@
+Here is a quick guide on how to use this Chess computer/playing field application:
+
+
+1). Click the start button in the IDE.
+
+2). In the terminal, the program will ask for the engine depth(difficulty) to be specified. Note that a half move is a singular move of black or white.
+    So 4 half moves is 2 full moves of black or white. Please use only values between 1 and 4, as 0 is an undefined depth and more than 4 will take too long.
+    * I recommend three for a fairly quick playing experience and pretty good ai
+
+3). The program will ask for moves to be input. Input moves in the following manner:
+    - Use the letters and numbers on the edges to find the square on the grid where the piece you want to move is located.
+    - Do the same for the square where you want the piece in the previous square you found to move to.
+    - Write the letter then number of the first square, space, then second.
+    - Example: e2 e4, this moves the piece in e2 square to the e4 square, if it is a legal move.
+
+    Special Cases:
+    - Program says, "Not a Legal Move". In this case it means that the move you entered is not a legal one.
+    - Castling: Input the square of the King, then the square where the king will end up after castling. For white the two castling options are, e1 g1 and e1 c1.
+
+4). The program will print the new chess board with your move being made.
+
+5). After a wait of 0-(2-4) seconds based off of the depth you preciously selected, the program will output a red line followed by the new board with the engine's move on it.
+
+6). One full move has been completed. If the game has ended, in a win/loss or a tie(Tie by repetition is not currently supported) it will print out, and you should stop playing.
+
+7). Keep making moves and playing chess!
